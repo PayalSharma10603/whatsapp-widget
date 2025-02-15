@@ -1,0 +1,206 @@
+.wws-popup-container {
+    width: auto;
+    position: fixed;
+    z-index: 9999999;
+    }
+    
+    .wws-popup-container--position {
+    right: 12px;
+    bottom: 12px;
+    }
+    
+    .wws-gradient--position {
+    bottom: 0;
+    right: 0;
+    background: radial-gradient(ellipse at bottom right, rgba(29, 39, 54, 0.2) 0, rgba(29, 39, 54, 0) 72%);
+    }
+    
+    .wws-gradient {
+    z-index: -1;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    content: "";
+    pointer-events: none;
+    display: none;
+    }
+    
+    .wws-popup {
+    width: 260px;
+    }
+    
+    .wws-popup__close-btn {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 38px;
+    cursor: pointer;
+    }
+    
+    .wws--text-color {
+    color: #ffffff;
+    }
+    
+    .wws--bg-color {
+    background-color: #22c15e;
+    }
+    
+    .wws-shadow {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    }
+    
+    .wws-popup__support-wrapper {
+    margin-top: 8px;
+    }
+    
+    .wws-popup__support {
+    display: inline-block;
+    vertical-align: bottom;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 260px;
+    float: right;
+    }
+    
+    .wws-popup__support-about {
+    text-align: center;
+    padding: 20px 10px;
+    line-height: 22px;
+    -webkit-user-select: none;
+    user-select: none;
+    }
+    
+    .wws-popup-container * {
+    box-sizing: border-box;
+    }
+    
+    .wws--text-color {
+    color: #ffffff;
+    }
+    
+    .wws--bg-color {
+    background-color: #22c15e;
+    }
+    
+    .wws-popup__support-img-wrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: bottom;
+    margin-right: 3px;
+    display: block;
+    margin: 0 auto 8px auto;
+    }
+    
+    .wws-popup__support-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    }
+    
+    .wws-popup__support-welcome {
+    background-color: #fff;
+    padding: 20px 15px;
+    color: #888FBB;
+    line-height: 22px;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: left;
+    font-size: 15px;
+    }
+    
+    img.wp-smiley,
+    img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+    }
+    
+    .wws-popup__input-wrapper {
+    width: 260px;
+    margin-top: 14px;
+    float: right;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    position: relative;
+    }
+    
+    .wws-shadow {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    }
+    
+    .wws-popup__input {
+    border: none !important;
+    background-color: transparent !important;
+    outline: none !important;
+    padding: 6px 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    vertical-align: middle !important;
+    display: inline-block !important;
+    width: 194px !important;
+    height: auto !important;
+    font-size: 1rem;
+    font-family: inherit;
+    }
+    
+    .wws-popup__send-btn {
+    cursor: pointer;
+    padding: 6px;
+    width: 34px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    }
+    
+    .wws-popup__open-btn {
+    float: right;
+    }
+    
+    .wws-popup__open-btn {
+        padding: 8px 20px;
+        border-radius: 20px;
+        display: flex;
+        margin-top: 15px;
+        cursor: pointer;
+        gap: 5px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .wws-popup__open-btn>svg {
+    padding-right: 2px;
+    width: 18px;
+    height: 20px;
+    }
+    
+    .wws-popup__close-btn svg {
+    width: 16px;
+    height: 16px;
+    }
+
+    .wws-popup__close-btn.wws--text-color.wws--bg-color.wws-shadow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .whatsapp-image-icon{
+        width:20px;
+        height: 20px;
+        padding-right: 2px;
+        padding-top: 2px;
+    }
